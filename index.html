@@ -1,112 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website personal Aisyah Mardhiyah">
+    <title>Aisyah Mardhiyah | Personal Website</title>
 
-No file chosen
-Library
-Search
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-New
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-All
+<header class="navbar">
+    <a href="#home" class="logo">Aisyah<span>.</span></a>
 
-Images
+    <nav id="navMenu">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#education">Pendidikan</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#achievements">Prestasi</a>
+        <a href="#projects">Proyek</a>
+        <a href="#contact">Kontak</a>
+    </nav>
 
-Documents
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button>
+</header>
 
+<main>
+    <!-- 1. BERANDA -->
+    <section class="hero" id="home">
+        <div class="hero-text reveal">
+            <p class="eyebrow">WELCOME TO MY PERSONAL WEBSITE</p>
+            <h1>Halo, saya<br><span>Aisyah Mardhiyah.</span></h1>
+            <p class="hero-description">
+                Seorang pelajar yang senang belajar, mencoba hal baru,
+                dan mengembangkan kemampuan di bidang sains, teknologi, dan kreativitas.
+            </p>
 
+            <div class="hero-buttons">
+                <a href="#about" class="btn primary">Kenal Saya</a>
+                <a href="#projects" class="btn secondary">Lihat Proyek</a>
+            </div>
+        </div>
 
-
-Name
-Modified
-Size
-
-Library
-/
-index(2).html
-More actions
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
-82
-83
-84
-85
-86
-87
-88
-89
-90
-91
-92
-93
-94
-95
-96
-97
-98
-99
-100
-101
-102
-103
-104
-105
-106
-107
-108
-109
-110
-111
-112
-113
-114
-115
-116
-117
-118
-119
-120
-121
-122
-123
-124
-125
-126
-127
-128
-129
-130
-131
-132
-133
-134
-135
-136
-137
+        <div class="profile-wrap reveal">
+            <div class="profile-photo">
+                <img src="foto-profil.jpg" alt="Foto profil Aisyah Mardhiyah"
                      onerror="this.style.display='none'; document.getElementById('profileInitial').style.display='flex';">
                 <div id="profileInitial" class="profile-initial">A</div>
             </div>
@@ -192,4 +135,170 @@ More actions
                 <div class="timeline-content">
                     <span class="timeline-year">Saat Ini</span>
                     <h3>MAM 01 Paciran</h3>
+                    <p>Saat ini menempuh kelas XII ITCP 2 dengan fokus pada bidang Ilmu Pengetahuan Alam.</p>
+                    <div class="info-pill">XII ITCP 2 • IPA</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- 4. KEAHLIAN -->
+    <section class="section skills" id="skills">
+        <div class="section-heading reveal">
+            <p class="eyebrow">KEAHLIAN</p>
+            <h2>Kemampuan yang sedang <span>saya kembangkan.</span></h2>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card reveal">
+                <span class="skill-number">01</span>
+                <div class="skill-icon">💻</div>
+                <h3>HTML & CSS</h3>
+                <p>Mempelajari dasar membuat dan mendesain website.</p>
+            </div>
+
+            <div class="skill-card reveal">
+                <span class="skill-number">02</span>
+                <div class="skill-icon">🎨</div>
+                <h3>Desain</h3>
+                <p>Membuat tampilan visual yang rapi, menarik, dan kreatif.</p>
+            </div>
+
+            <div class="skill-card reveal">
+                <span class="skill-number">03</span>
+                <div class="skill-icon">🎤</div>
+                <h3>Presentasi</h3>
+                <p>Menyampaikan ide dan hasil tugas dengan terstruktur.</p>
+            </div>
+
+            <div class="skill-card reveal">
+                <span class="skill-number">04</span>
+                <div class="skill-icon">🤝</div>
+                <h3>Kerja Sama</h3>
+                <p>Bekerja bersama teman dalam tugas, kegiatan, dan proyek.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. PRESTASI & KEGIATAN -->
+    <section class="section achievements" id="achievements">
+        <div class="section-heading reveal">
+            <p class="eyebrow">PRESTASI & KEGIATAN</p>
+            <h2>Pengalaman yang <span>membentuk saya.</span></h2>
+        </div>
+
+        <div class="achievement-grid">
+            <article class="achievement-card reveal">
+                <div class="achievement-icon">🏫</div>
+                <div>
+                    <h3>Organisasi</h3>
+                    <p>
+                        Berpartisipasi dalam kegiatan sekolah dan belajar
+                        bertanggung jawab serta bekerja dalam tim.
+                    </p>
+                </div>
+            </article>
+
+            <article class="achievement-card reveal">
+                <div class="achievement-icon">🏆</div>
+                <div>
+                    <h3>Lomba</h3>
+                    <p>
+                        Mengikuti kegiatan atau perlombaan sebagai pengalaman
+                        untuk melatih keberanian dan kemampuan.
+                    </p>
+                </div>
+            </article>
+
+            <article class="achievement-card reveal">
+                <div class="achievement-icon">📚</div>
+                <div>
+                    <h3>Kegiatan Sekolah</h3>
+                    <p>
+                        Terlibat dalam berbagai tugas, presentasi, dan kegiatan
+                        pembelajaran yang menambah pengalaman.
+                    </p>
+                </div>
+            </article>
+
+            <article class="achievement-card reveal">
+                <div class="achievement-icon">🌟</div>
+                <div>
+                    <h3>Pengembangan Diri</h3>
+                    <p>
+                        Terus mencoba hal baru untuk meningkatkan kemampuan,
+                        kreativitas, dan rasa percaya diri.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- 6. PROYEK -->
+    <section class="section projects" id="projects">
+        <div class="section-heading reveal">
+            <p class="eyebrow">PROYEK</p>
+            <h2>Beberapa hal yang <span>pernah saya kerjakan.</span></h2>
+        </div>
+
+        <div class="project-grid">
+            <article class="project-card reveal">
+                <div class="project-icon">🌐</div>
+                <span class="project-tag">WEBSITE</span>
+                <h3>Personal Website</h3>
+                <p>
+                    Membuat website personal menggunakan HTML, CSS, dan
+                    JavaScript dengan bantuan AI.
+                </p>
+            </article>
+
+            <article class="project-card reveal">
+                <div class="project-icon">📖</div>
+                <span class="project-tag">TUGAS SEKOLAH</span>
+                <h3>Proyek Pembelajaran</h3>
+                <p>
+                    Membuat berbagai tugas, presentasi, dan portofolio
+                    untuk mengembangkan kemampuan belajar dan kreativitas.
+                </p>
+            </article>
+
+            <article class="project-card reveal">
+                <div class="project-icon">🤖</div>
+                <span class="project-tag">TEKNOLOGI</span>
+                <h3>Proyek Arduino</h3>
+                <p>
+                    Mempelajari proyek sederhana berbasis Arduino,
+                    sensor, dan komponen elektronika.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <!-- 7. KONTAK -->
+    <section class="contact" id="contact">
+        <div class="contact-inner reveal">
+            <p class="eyebrow">KONTAK</p>
+            <h2>Mari terhubung<br><span>dan berbagi cerita.</span></h2>
+            <p>
+                Terima kasih sudah mengunjungi website personal saya.
+                Silakan hubungi saya melalui kontak di bawah ini.
+            </p>
+
+            <div class="contact-links">
+                <a href="mailto:aisyahmardhiyah0502@email.com">✉️ Email</a>
+                <a href="https://www.instagram.com/syh_mrdhyh/" target="_blank" rel="noopener noreferrer">📸 Instagram</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-logo">Aisyah<span>.</span></div>
+    <p>Belajar hari ini, berkembang untuk hari esok.</p>
+    <div class="footer-line"></div>
+    <small>© <span id="year"></span> Aisyah Mardhiyah. Dibuat dengan HTML, CSS & JavaScript.</small>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
